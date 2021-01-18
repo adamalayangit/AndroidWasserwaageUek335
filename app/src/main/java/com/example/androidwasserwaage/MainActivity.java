@@ -88,12 +88,7 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
     }
 
     public void vibrate() {
-        //Vibrator v = (Vibrator) getSystemService(Context.VIBRATOR_SERVICE);
-        if (Build.VERSION.SDK_INT >= 26) {
-            ((Vibrator) getSystemService(VIBRATOR_SERVICE)).vibrate(VibrationEffect.createOneShot(150, VibrationEffect.EFFECT_TICK));
-        } else {
-            ((Vibrator) getSystemService(VIBRATOR_SERVICE)).vibrate(VibrationEffect.createOneShot(150, VibrationEffect.EFFECT_TICK));
-        }
+        ((Vibrator) getSystemService(VIBRATOR_SERVICE)).vibrate(VibrationEffect.createOneShot(150, VibrationEffect.EFFECT_TICK));
     }
 
     /*private void convertToDegrees(float[] vector){

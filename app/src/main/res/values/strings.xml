@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">AndroidWasserwaage</string>
+    <string name="app_name">Rotation Detector - Wasserwaage</string>
     <string name="title">Wasserwaage</string>
     <string name="x">X</string>
     <string name="y">Y</string>
